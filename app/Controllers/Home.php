@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        $data['title'] = 'LPK-LKP INDERA';
+        // dd($data);
+        return view('landing/index', $data);
     }
 }
