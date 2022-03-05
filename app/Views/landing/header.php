@@ -50,6 +50,9 @@
                 </li>
 
                 <li class="has-submenu">
+                    <a href="<?= base_url(); ?>#pelayanan">Pelayanan</a>
+                </li>
+                <li class="has-submenu">
                     <a href="<?= base_url(); ?>#kantor">Kantor</a>
                 </li>
                 <li class="has-submenu">
@@ -57,9 +60,6 @@
                 </li>
                 <li class="has-submenu">
                     <a href="<?= base_url(); ?>#testimoni">Testimoni</a>
-                </li>
-                <li class="has-submenu">
-                    <a href="#paket">Paket</a>
                 </li>
                 <li class="has-submenu">
                     <a href="<?= base_url(); ?>#kontak">Kontak</a>

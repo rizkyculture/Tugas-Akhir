@@ -17,7 +17,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultController('Pages');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -31,7 +31,15 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+// Halaman Utama (Frontend)
 $routes->get('/', 'Home::index');
+$routes->get('/tentang', 'Pages::tentang');
+$routes->get('/struktur', 'Pages::struktur');
+$routes->get('/akreditasi', 'Pages::akreditasi');
+$routes->get('/visi-misi', 'Pages::visimisi');
+$routes->get('/sarana-prasarana', 'Pages::sarana');
+$routes->get('/whatsapp', 'Pages::whatsapp');
 
 /*
  * --------------------------------------------------------------------

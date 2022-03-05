@@ -7,7 +7,7 @@
                         <!-- BEGIN: Footer Social Media-->
                         <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                             <a href="#" class="logo-footer">
-                                <img src="<?= base_url(); ?>/landing/images/logo-light.png" height="24" alt="">
+                                <img src="<?= base_url(); ?>/landing/images/logo-white.png" height="24" alt="">
                             </a>
                             <p class="mt-4">Dapatkan Informasi tentang promo dan berita terbaru dari kami dengan cara
                                 mengikuti salah satu social media kami dibawah ini:

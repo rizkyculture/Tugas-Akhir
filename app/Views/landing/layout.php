@@ -55,7 +55,8 @@ Instagram   : @rizkyculture
     <?= $this->renderSection('pageStyles') ?>
 
     <!-- END: File Stylesheets (CSS) -->
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgxvX4CojXpEo6L9VQ9Qxn08oeOFCluZA&callback">
+    </script>
 </head>
 
 <body>
@@ -88,7 +89,20 @@ Instagram   : @rizkyculture
     <script src="<?= base_url(); ?>/landing/js/app.js"></script>
     <!-- JavaScript Custom -->
     <?= $this->renderSection('pageScript') ?>
+    <script>
+    function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('MapsPusat'), {
+            center: {
+                lat: -7.575418625840377,
+                lng: 110.28293488304071
 
+            },
+            scrollwheel: false,
+            zoom: 3
+        });
+    }
+    </script>
     <!-- END: File JavaScript (JS) -->
 </body>
 

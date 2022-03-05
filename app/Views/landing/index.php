@@ -292,8 +292,6 @@
                                 Jl. Bakalan No.04, Kec. Muntilan, Kab. Magelang, Jawa Tengah 56413
                             </a>
                         </p>
-
-
                     </div>
                 </div>
             </div>
@@ -429,8 +427,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-
                 <div class="col-lg-3 col-md-6 col-12 spacing picture-item" data-groups='["acara"]'>
                     <div
                         class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
@@ -448,8 +444,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-
                 <div class="col-lg-3 col-md-6 col-12 spacing picture-item" data-groups='["pelatihan"]'>
                     <div
                         class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
@@ -466,8 +460,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-
                 <div class="col-lg-3 col-md-6 col-12 spacing picture-item" data-groups='["testimoni"]'>
                     <div
                         class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
@@ -484,8 +476,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-
                 <div class="col-lg-3 col-md-6 col-12 spacing picture-item" data-groups='["sarana"]'>
                     <div
                         class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
@@ -502,8 +492,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-
                 <div class="col-lg-3 col-md-6 col-12 spacing picture-item" data-groups='["testimoni"]'>
                     <div
                         class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
@@ -520,8 +508,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-
                 <div class="col-lg-3 col-md-6 col-12 spacing picture-item" data-groups='["acara"]'>
                     <div
                         class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
@@ -539,8 +525,6 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
-
                 <div class="col-lg-3 col-md-6 col-12 spacing picture-item" data-groups='["pelatihan"]'>
                     <div
                         class="card border-0 work-container work-grid position-relative d-block overflow-hidden rounded">
@@ -557,7 +541,7 @@
                         </div>
                     </div>
                 </div>
-                <!--end col-->
+
             </div>
         </div>
         <div class="mt-4 text-center">
@@ -808,12 +792,11 @@
         <div class="row">
             <!-- BEGIN: Google Maps -->
             <div class="col-lg-7 col-md-6 p-0 ps-md-3 pe-md-3">
-                <div class="card map map-height-two rounded map-gray border-0">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126559.05569675646!2d110.279962!3d-7.578191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd5d996fd977499e!2sLPK%2FLKP%20INDERA!5e0!3m2!1sid!2sid!4v1646505807513!5m2!1sid!2sid"
-                        style="border:0;" class="rounded" allowfullscreen=""></iframe>
+                <div id="MapsPusat" class="card map map-height-two rounded map-gray border-0">
                 </div>
             </div>
+
+
             <!-- END: Google Maps -->
 
             <!-- BEGIN: Kontak Detail -->
@@ -842,7 +825,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--end col-->
+
                                 <div class="col-md-12">
                                     <div class="mb-3">
                                         <div class="contact-detail d-flex align-items-center mt-3"
@@ -857,7 +840,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--end col-->
+
                                 <div class="col-md-12">
                                     <div class="mb-3">
                                         <div class="contact-detail d-flex align-items-center mt-3"
@@ -914,4 +897,7 @@
     </div>
 </div>
 
+<?= $this->endSection(); ?>
+
+<?= $this->section('pageScript'); ?>
 <?= $this->endSection(); ?>
