@@ -7,35 +7,35 @@ class Pages extends BaseController
     public function tentang()
     {
         $data = [
-            'title' => 'Tentang - LPK-LKP INDERA'
+            'title' => 'Tentang - LPK/LKP INDERA'
         ];
         return view('landing/pages/tentang', $data);
     }
     public function struktur()
     {
         $data = [
-            'title' => 'Struktur Organisasi - LPK-LKP INDERA'
+            'title' => 'Struktur Organisasi - LPK/LKP INDERA'
         ];
         return view('landing/pages/struktur', $data);
     }
     public function visimisi()
     {
         $data = [
-            'title' => 'Visi Misi - LPK-LKP INDERA'
+            'title' => 'Visi Misi - LPK/LKP INDERA'
         ];
         return view('landing/pages/visimisi', $data);
     }
     public function akreditasi()
     {
         $data = [
-            'title' => 'Akreditasi & Perijinan - LPK-LKP INDERA'
+            'title' => 'Akreditasi & Perijinan - LPK/LKP INDERA'
         ];
         return view('landing/pages/akreditasi', $data);
     }
     public function sarana()
     {
         $data = [
-            'title' => 'Sarana dan Prasarana - LPK-LKP INDERA'
+            'title' => 'Sarana dan Prasarana - LPK/LKP INDERA'
         ];
         return view('landing/pages/sarana', $data);
     }
@@ -43,7 +43,7 @@ class Pages extends BaseController
     public function whatsapp()
     {
         $data = [
-            'title' => 'Whatsapp - LPK-LKP INDERA'
+            'title' => 'Whatsapp - LPK/LKP INDERA'
         ];
         return view('landing/pages/whatsapp', $data);
     }

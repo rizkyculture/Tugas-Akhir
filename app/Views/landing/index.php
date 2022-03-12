@@ -792,7 +792,10 @@
         <div class="row">
             <!-- BEGIN: Google Maps -->
             <div class="col-lg-7 col-md-6 p-0 ps-md-3 pe-md-3">
-                <div id="MapsPusat" class="card map map-height-two rounded map-gray border-0">
+                <div class="card map map-height-two rounded map-gray border-0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126559.05569675646!2d110.279962!3d-7.578191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd5d996fd977499e!2sLPK%2FLKP%20INDERA!5e0!3m2!1sid!2sid!4v1647082890227!5m2!1sid!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
 

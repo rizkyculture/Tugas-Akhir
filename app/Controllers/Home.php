@@ -6,8 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        $data['title'] = 'Kursus Mengemudi Terbaik di Magelang - LPK-LKP INDERA';
-        // dd($data);
+        $data['title'] = 'LPK/LKP INDERA - Kursus Mengemudi Terbaik di Magelang';
         return view('landing/index', $data);
     }
 }
