@@ -40,6 +40,7 @@ $routes->get('/akreditasi', 'Pages::akreditasi');
 $routes->get('/visi-misi', 'Pages::visimisi');
 $routes->get('/sarana-prasarana', 'Pages::sarana');
 $routes->get('/whatsapp', 'Pages::whatsapp');
+$routes->get('/faq', 'Pages::faq');
 
 /*
  * --------------------------------------------------------------------

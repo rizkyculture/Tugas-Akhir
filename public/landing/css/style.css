@@ -1,40 +1,18 @@
-/* Template Name: Landrick - Saas & Software Landing Page Template
-   Author: Shreethemes
-   E-mail: support@shreethemes.in
-   Created: August 2019
-   Version: 3.8.0
-   Updated: July 2021
-   File Description: Main Css file of the template
+/*
+Website Untuk  : LPK/LKP INDERA
+Pembuat        : Muhammad Rizky Ibrahim
+Email          : rizkyculture@gmail.com
+Whatsapp       : 085961412226
+Github         : https://github.com/rizkyculture/
+Twitter        : @rizkyculture
+Instagram      : @rizkyculture
+Tgl dibuat     : September 2021
+Tgl diperbarui : Maret 2022
+Versi          : 2.0.0
 */
-/*********************************/
-/*         INDEX                 */
-/*================================
- *     01.  Variables            *
- *     02.  Bootstrap Custom     *
- *     03.  Components           *
- *     04.  General              *
- *     05.  Helper               *
- *     06.  Menu                 *
- *     07.  Home / Landing       *
- *     08.  Features / Services  *
- *     09.  Testimonial          *
- *     10.  Price                *
- *     11.  C.T.A                *
- *     12.  Blog / Careers / Job *
- *     13.  Work / Projects      *
- *     14.  Team                 *
- *     15.  User Pages           *
- *     16.  Countdown            *
- *     17.  Contact              *
- *     18.  Footer               *
- ================================*/
-/*********************************/
-/*         Variables             */
-/*===============================*/
+
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
-/*********************************/
-/*         Bootstrap-custom      */
-/*===============================*/
+
 @media (min-width: 1400px) {
   .container {
     max-width: 1140px !important;
@@ -2106,8 +2084,8 @@ button:not(:disabled) {
 
 .back-to-home {
   position: fixed;
-  top: 4%;
-  right: 2%;
+  bottom: 10px;
+  right: 10px;
   z-index: 1;
 }
 

@@ -5,7 +5,7 @@
                 <div class="footer-py-60">
                     <div class="row">
                         <!-- BEGIN: Footer Social Media-->
-                        <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                        <div class="col-lg-3 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                             <a href="#" class="logo-footer">
                                 <img src="<?= base_url(); ?>/landing/images/logo-white.png" height="24" alt="">
                             </a>
@@ -31,24 +31,41 @@
                         </div>
                         <!-- END: Footer Social Media-->
 
+                        <!-- BEGIN: Footer Akses Cepat -->
+                        <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <h5 class="text-light footer-head">Akses Cepat</h5>
+                            <ul class="list-unstyled footer-list mt-4">
+                                <li><a href="<?= site_url('tentang'); ?>" class="text-foot"><i
+                                            class="uil uil-angle-right-b me-1"></i> Tentang Kami</a></li>
+                                <li><a href="<?= site_url('struktur'); ?>" class="text-foot"><i
+                                            class="uil uil-angle-right-b me-1"></i> Struktur</a></li>
+                                <li><a href="<?= site_url('sarana-prasarana'); ?>" class="text-foot"><i
+                                            class="uil uil-angle-right-b me-1"></i> Sarana dan Prasarana</a></li>
+                                <li><a href="<?= site_url('visi-misi'); ?>" class="text-foot"><i
+                                            class="uil uil-angle-right-b me-1"></i> Visi Misi</a></li>
+                                <li><a href="<?= site_url('FAQ'); ?>" class="text-foot"><i
+                                            class="uil uil-angle-right-b me-1"></i> FAQ</a></li>
+                                <li><a href="<?= site_url('register'); ?>" class="text-foot"><i
+                                            class="uil uil-angle-right-b me-1"></i> Daftar</a></li>
+                                <li><a href="<?= site_url('login'); ?>" class="text-foot"><i
+                                            class="uil uil-angle-right-b me-1"></i> Masuk</a></li>
+                            </ul>
+                        </div>
+                        <!-- END: Footer Akses Cepat -->
+
                         <!-- BEGIN: Footer Alamat Kantor-->
-                        <div class="col-lg-5 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <h5 class="text-light footer-head">Alamat Kantor</h5>
                             <ul class="list-unstyled footer-list mt-4">
                                 <li><a href="https://goo.gl/maps/X96J2pq1fbPqFEq2A" class="text-foot"><i
-                                            class="fas fa-map-marker-alt"></i> Kantor Pusat : Muntilan (Magelang, Jawa
-                                        Tengah)</a></li>
+                                            class="fas fa-map-marker-alt"></i> Kantor Muntilan</a></li>
                                 <li><a href="https://goo.gl/maps/J3TWfEww37LWM6Xf8" class="text-foot"><i
-                                            class="fas fa-map-marker-alt"></i> Kantor Cabang : Sawitan (Magelang, Jawa
-                                        Tengah)</a></li>
-                                <li><a href="#" class="text-foot"><i class="fas fa-map-marker-alt"></i> Kantor Cabang :
-                                        Salaman (Magelang, Jawa
-                                        Tengah)</a>
+                                            class="fas fa-map-marker-alt"></i> Kantor Sawitan</a></li>
+                                <li><a href="#" class="text-foot"><i class="fas fa-map-marker-alt"></i> Kantor Salaman
+                                    </a>
                                 </li>
                                 <li><a href="https://goo.gl/maps/w111UAabyYmCNaom7" class="text-foot"><i
-                                            class="fas fa-map-marker-alt"></i> Kantor Cabang : Mertoyudan (Magelang,
-                                        Jawa
-                                        Tengah)</a></li>
+                                            class="fas fa-map-marker-alt"></i> Kantor Mertoyudan</a></li>
                             </ul>
                         </div>
                         <!-- END: Footer Alamat Kantor-->
@@ -87,10 +104,20 @@
                     <div class="text-sm-start">
                         <p class="mb-0">Copyright © <script>
                             document.write(new Date().getFullYear())
-                            </script> <a href="<?= site_url(); ?>" class="text-reset">Kursus Mengemudi Indera</a>.</p>
+                            </script> <a href="<?= site_url(); ?>" class="text-primary">LPK-LKP INDERA</a>
+                        </p>
                     </div>
                 </div>
                 <!-- END: Footer Copyright-->
+
+                <div class="col-sm-6">
+                    <div class="text-sm-end">
+                        <p class="mb-0">Dibuat dengan <span class="text-danger">
+                                <i class="fa-solid fa-heart"></i></span> oleh
+                            <a href="https://wa.me/6285961412226" class="text-primary">Rizky Ibrahim</a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

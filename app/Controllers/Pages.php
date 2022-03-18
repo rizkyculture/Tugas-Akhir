@@ -47,4 +47,11 @@ class Pages extends BaseController
         ];
         return view('landing/pages/whatsapp', $data);
     }
+    public function faq()
+    {
+        $data = [
+            'title' => 'FAQ - LPK/LKP INDERA'
+        ];
+        return view('landing/pages/faq', $data);
+    }
 }

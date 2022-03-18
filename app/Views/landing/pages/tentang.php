@@ -1,33 +1,30 @@
 <?= $this->extend('landing/layout'); ?>
 <?= $this->section('content'); ?>
 
-<!-- Hero Start -->
-<section class="bg-half-170 d-table w-100" style="background: url('/landing/images/background/aboutus.png');">
-    <div class="bg-overlay"></div>
+<!-- BEGIN Judul dan Breadcum -->
+<section class="bg-half-170 bg-circle-gradiant d-table w-100">
     <div class="container">
         <div class="row mt-5 justify-content-center">
             <div class="col-lg-12 text-center">
-                <div class="pages-heading title-heading">
-                    <h2 class="text-white title-dark"> Tentang Kami </h2>
+                <div class="pages-heading">
+                    <h2 class="fw-bold mb-0"> Frequently Asked Questions </h2>
                 </div>
             </div>
-            <!--end col-->
         </div>
-        <!--end row-->
         <div class="position-breadcrumb">
             <nav aria-label="breadcrumb" class="d-inline-block">
                 <ul class="breadcrumb bg-white rounded shadow mb-0 px-4 py-2">
-                    <li class="breadcrumb-item"><a href="<?= base_url(); ?>">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Profil</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Tentang Kami</li>
+                    <li class="breadcrumb-item"><a href="<?= base_url(); ?>">LPK-LKP INDERA</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">FAQ</li>
                 </ul>
             </nav>
         </div>
     </div>
 </section>
-<!-- Hero End -->
+<!-- END Judul dan Breadcum -->
 
-<!-- Shape Start -->
+
+<!-- BEGIN: Shape -->
 <div class="position-relative">
     <div class="shape overflow-hidden text-white">
         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,16 +32,15 @@
         </svg>
     </div>
 </div>
-<!--Shape End-->
+<!-- END: Shape -->
 
-<!-- About Start -->
+<!-- BEGIN: Tentang -->
 <section class="section">
     <div class="container">
         <div class="row align-items-center" id="counter">
             <div class="col-md-6">
                 <img src="<?= base_url(); ?>/landing/images/tentang/tentang-2.png" class="img-fluid" alt="">
             </div>
-            <!--end col-->
 
             <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
                 <div class="ms-lg-4">
@@ -71,14 +67,10 @@
                     </div>
                 </div>
             </div>
-            <!--end col-->
         </div>
-        <!--end row-->
     </div>
-    <!--end container-->
 </section>
-<!--end section-->
-
+<!-- END: Tentang -->
 
 <!-- BEGIN: Section Promo-->
 <div class="container-fluid px-0">
@@ -98,8 +90,8 @@
                 </div>
                 <div class="col-md-5 mt-4 mt-sm-0">
                     <div class="text-md-end ms-5 ms-sm-0">
-                        <a href="https://wa.me/6282137136565" class="btn btn-light me-2 me-lg-2 me-md-0 my-2"><i
-                                class="fab fa-whatsapp"></i>
+                        <a href="<?= site_url('whatsapp'); ?>" class="btn btn-light me-2 me-lg-2 me-md-0 my-2"><i
+                                class="fab fa-whatsapp" target="_blank"></i>
                             Hubungi Kami</a>
                     </div>
                 </div>
@@ -108,10 +100,5 @@
     </div>
 </div>
 <!-- END: Section Promo-->
-
-
-
-
-
 
 <?= $this->endSection(); ?>

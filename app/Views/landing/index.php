@@ -16,7 +16,7 @@
                     <p class="para-desc text-muted">Bagi anda yang ingin belajar mengemudi mobil, kami telah mempunyai
                         pengalaman selama 48 tahun untuk kursus mengemudi.</p>
                     <div class="mt-3">
-                        <a href=" <?= site_url('/whatsapp'); ?>" class="btn btn-primary me-2 mt-2"><i
+                        <a href=" <?= site_url('whatsapp'); ?>" class="btn btn-primary me-2 mt-2"><i
                                 class="fab fa-whatsapp" target="_blank"></i> Whatsapp Kami</a>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfFr8m_DMcfKGSVD3Nj3ZAN09O02AEEKW-j7lD55P9WlvJXw/viewform"
                             class="btn btn-soft-primary mt-2" target="_blank">Daftar Online <i
@@ -102,7 +102,7 @@
 <!-- END: Section Counter-->
 
 <!-- BEGIN: Section Pelayanan-->
-<section class="section" id="pelayanan">
+<section class="section" id="layanan">
     <div class="container">
         <!-- BEGIN: Judul Pelayanan-->
         <div class="row justify-content-center">
@@ -254,15 +254,15 @@
 <!-- END: Section Promo-->
 
 <!-- BEGIN: Section Alamat -->
-<section class="section" id="kantor">
+<section class="section" id="lokasi">
     <div class="container">
         <!-- BEGIN: Judul Section Alamat -->
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
-                    <h4 class="title mb-4" data-aos="fade-up" data-aos-duration="600">Kantor Kami</h4>
+                    <h4 class="title mb-4" data-aos="fade-up" data-aos-duration="600">Lokasi Kami</h4>
                     <p class="text-muted para-desc mx-auto mb-0" data-aos="fade-up" data-aos-duration="1000">Selain
-                        berpusat di Muntilan <span class="text-primary fw-bold"> kami </span> juga memiliki kantor
+                        berpusat di Muntilan <span class="text-primary fw-bold"> kami </span> juga memiliki Lokasi
                         cabang lainnya yang tersebar di Wilayah
                         Magelang.</p>
                 </div>

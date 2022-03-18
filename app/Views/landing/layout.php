@@ -1,10 +1,14 @@
 <!--
-Name        : Muhammad Rizky Ibrahim
-Email       : rizkyculture@gmail.com
-Whatsapp    : 085961412226
-Github      : https://github.com/rizkyculture/
-Twitter     : @rizkyculture
-Instagram   : @rizkyculture
+    Website Untuk  : LPK/LKP INDERA
+    Pembuat        : Muhammad Rizky Ibrahim
+    Email          : rizkyculture@gmail.com
+    Whatsapp       : 085961412226
+    Github         : https://github.com/rizkyculture/
+    Twitter        : @rizkyculture
+    Instagram      : @rizkyculture
+    Tgl dibuat     : September 2021
+    Tgl diperbarui : Maret 2022
+    Versi          : 2.0.0
  -->
 <!DOCTYPE html>
 <html lang="id">
@@ -55,8 +59,6 @@ Instagram   : @rizkyculture
     <?= $this->renderSection('pageStyles') ?>
 
     <!-- END: File Stylesheets (CSS) -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgxvX4CojXpEo6L9VQ9Qxn08oeOFCluZA&callback">
-    </script>
 </head>
 
 <body>
@@ -69,7 +71,7 @@ Instagram   : @rizkyculture
 
     <!-- BEGIN:  Back to top-->
     <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5">
-        <i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <i class="fa-solid fa-arrow-up fea icon-sm icons align-middle"></i></a>
     <!-- END: Back to top-->
 
     <!-- BEGIN: File JavaScript (JS) -->
@@ -89,20 +91,6 @@ Instagram   : @rizkyculture
     <script src="<?= base_url(); ?>/landing/js/app.js"></script>
     <!-- JavaScript Custom -->
     <?= $this->renderSection('pageScript') ?>
-    <script>
-    function initMap() {
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('MapsPusat'), {
-            center: {
-                lat: -7.575418625840377,
-                lng: 110.28293488304071
-
-            },
-            scrollwheel: false,
-            zoom: 3
-        });
-    }
-    </script>
     <!-- END: File JavaScript (JS) -->
 </body>
 
